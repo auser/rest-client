@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
     s.has_rdoc = true
     s.platform = Gem::Platform::RUBY
     s.files = %w(Rakefile README.rdoc rest-client.gemspec
-                 lib/rest_client.rb lib/restclient.rb
+                 lib/rest_client.rb lib/restclient.rb lib/restclient/mixin/response.rb
                  lib/restclient/request.rb lib/restclient/response.rb
                  lib/restclient/exceptions.rb lib/restclient/resource.rb
                  spec/base.rb spec/request_spec.rb spec/response_spec.rb
